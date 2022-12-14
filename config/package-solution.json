@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "docs-uploader-client-side-solution",
+    "id": "0094f3f6-fa2e-43e5-8889-24e98d35ab9c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "docs-uploader description"
+      },
+      "longDescription": {
+        "default": "docs-uploader description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "docs-uploader Feature",
+        "description": "The feature that activates elements of the docs-uploader solution.",
+        "id": "fcdb156e-cddb-4dfa-a3b7-2dc34ad24b70",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/docs-uploader.sppkg"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "ipm-doc-uploder-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/ipmDocUploder/IpmDocUploderWebPart.js",
+          "manifest": "./src/webparts/ipmDocUploder/IpmDocUploderWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "IpmDocUploderWebPartStrings": "lib/webparts/ipmDocUploder/loc/{locale}.js"
+  }
+}

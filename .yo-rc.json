@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.13.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.4.1"
+    },
+    "version": "1.16.0",
+    "libraryName": "docs-uploader",
+    "libraryId": "0094f3f6-fa2e-43e5-8889-24e98d35ab9c",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "docs-uploader",
+    "solutionShortDescription": "docs-uploader description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
